@@ -7,4 +7,6 @@ You should read first the "Read IDEAM.R" file. That file should read:
     -The "IDEAM.R" function to read IDEAM files containing climate records of Bahia Solano, Panamericana station ("Bahia Solano. IDEAM.   Todos") and Nuquí, Amargal station ("Todos diario, mensual por ano")
     
  Then, you should run the R script of the "Analysis IDEAM 4.R"
+ 
+ In addition scatter plots, seasonal plots, and cross-lagged correlations can be find in three excel spreadsheets.
   
