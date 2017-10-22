@@ -1,4 +1,4 @@
-# MalariaColombia
+# Data Analysis
 
 You should read first the "Read IDEAM.R" file. That file should read:
     -The mosquitoes densities ("Densidad mensual. Nuqui. Mar 98- Abr 05.csv").
