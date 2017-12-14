@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>Martens II</model>
+<type>2</type>
+<function>exp(-(1/(a+(b*x)+(c*(x^2)))))</function>
+<parameter>
+    <name>a</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>b</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>c</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>

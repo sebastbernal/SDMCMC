@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fit>
+<fit version="1.0">
+<model>Bayoh-Ermert</model>
+<type>2</type>
+<function>a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5</function>
+<parameter>
+    <name>a0</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>a1</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>a2</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>a3</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>a4</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+<parameter>
+    <name>a5</name>
+    <explanation></explanation>
+    <value>1.0000000000000e+00</value>
+</parameter>
+</fit>

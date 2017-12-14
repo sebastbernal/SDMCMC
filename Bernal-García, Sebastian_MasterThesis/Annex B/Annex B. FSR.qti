@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.11" dpi="144" arch="Win64" script="muParser" windows="2" expand="1" log="[2017-11-06 17:07:33&#9;Plot: ''Graph1'']&#10;Non-linear Fit of dataset: Table1_FSR, using function: exp(-(1/(a+(b*x)+(c*(x^2)))))&#10;Sort: No&#10;Weighting Method: No weighting&#10;Nelder-Mead Simplex algorithm with tolerance = 0.0001&#10;From x = 0.0000000000000e+00 to x = 3.8000000000000e+01 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;a = 1.6407132689765e-01 +/- 2.7843614695500e-01&#10;b = 9.2063871486152e-01 +/- 1.8837869828170e-01&#10;c = -2.4340957115148e-02 +/- 5.8710334939533e-03&#10;--------------------------------------------------------------------------------------&#10;Scale Errors with sqrt(Chi^2/doF) = 2.3317408614939e-02&#10;Chi^2/doF = 5.4370154451604e-04&#10;R^2 = 0.998349084379&#10;Adjusted R^2 = 0.9958727109475&#10;RMSE (Root Mean Squared Error) = 0.02331740861494&#10;RSS (Residual Sum of Squares) = 0.001631104633548&#10;---------------------------------------------------------------------------------------&#10;Iterations = 97&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Table1" date="2458063.7032482" x="0" y="0" w="415" h="448" active="1">
+		<tab rows="30" cols="2" labels="0">
+			<col name="Air Temperature" type="6" num="0" prec="13" plot="1" width="100" stat="0" data="0;24;27;30;33;38;"/>
+			<col name="FSR" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0;0.91;0.89;0.86;0.76;0;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph1" date="2458063.7041331" x="418" y="6" w="709" h="555" dpi="144">
+		<layout cw="693" ch="470" w="658" h="493" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="4" y="4" w="684" h="463" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00577201" y="0.00851064" w="0.987013" h="0.985106"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="54" y="13" w="626" h="404" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="2" z="21" table="Table1" x="Air Temperature" y="FSR" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="19" z="22" name="NonLinearFit1" f="0" y="exp(-(1/(a+(b*x)+(c*(x^2)))))" from="0" to="38" points="100" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="a" val="0.164071326897651"/>
+				<param name="b" val="0.920638714861516"/>
+				<param name="c" val="-0.0243409571151484"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="1" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="7" min="1" minl="4"/>
+				<title text="%(?Y)" color="#000000" font="Arial Unicode MS,6.6025,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41"/>
+				<labels space="4" font="Arial Unicode MS,6.6025,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.2" to="1" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="7" min="1" minl="4"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="40" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="1" majl="7" min="1" minl="4"/>
+				<title text="%(?X)" color="#000000" font="Arial Unicode MS,6.6025,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="41"/>
+				<labels space="4" font="Arial Unicode MS,6.6025,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-5" to="40" step="0" maj="10" min="5" type="0"/>
+				<ticks maj="1" majl="7" min="1" minl="4"/>
+			</axis>
+			<item type="2" x="-3.6986301369863" y="0.979674796747968" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Arial Unicode MS,6.6025,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+		</tab>
+	</window>
+</qti>
