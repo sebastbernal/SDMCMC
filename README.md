@@ -1,3 +1,3 @@
 # MalariaColombia
 
-In data analysis folder you can find climatic, epidemiological and entomological data analysis.
+In the Bernal-García, Sebastian_MasterThesis folder you can find tables, graphs, and files of Chapter 2, Chapter 4, Annex A, and Annex B.
