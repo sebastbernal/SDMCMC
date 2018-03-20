@@ -9,4 +9,6 @@ You should read first the "Read IDEAM.R" file. That file should read:
  Then, you should run the R script of the "Analysis IDEAM 4.R"
  
  In addition scatter plots, seasonal plots, and cross-lagged correlations can be find in three excel spreadsheets.
+ 
+ All the graphs and analysis can be found in the file: "Data Analysis Report.pdf" 
   
