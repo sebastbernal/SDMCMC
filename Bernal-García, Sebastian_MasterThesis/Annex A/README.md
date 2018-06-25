@@ -1,4 +1,4 @@
-# Data Analysis
+# Annex A
 
 1. You should read first the "Read IDEAM.R" file which should read: the mosquitoes densities ("Densidad mensual. Nuqui. Mar 98- Abr 05.csv"); the malaria cases ("Monthly_Cases_and_Prevalence_Pf&Pv_Nuqui_January94_to_April05.csv"); the "ONI.R" index computed by the NOAA; and the "IDEAM.R" function to read IDEAM files containing climate records of Bahia Solano, Panamericana station ("Bahia Solano. IDEAM.   Todos") and Nuquí, Amargal station ("Todos diario, mensual por ano").
 
