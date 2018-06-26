@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="0.9.9.11" dpi="144" arch="Win64" script="muParser" windows="2" expand="1" log="[2017-11-07 00:10:08&#9;Plot: ''Graph2'']&#10;Non-linear Fit of dataset: Table1_ISP, using function: ((a*x)*(x-b)*((c-x)^(1/d)))&#10;Sort: No&#10;Weighting Method: No weighting&#10;Nelder-Mead Simplex algorithm with tolerance = 0.0001&#10;From x = 1.5000000000000e+01 to x = 3.5000000000000e+01 (6 data points)&#10;--------------------------------------------------------------------------------------&#10;a = 2.2889012278937e-04 +/- 3.2662873909386e-05&#10;b = 1.4970395888909e+01 +/- 1.7512896665151e-01&#10;c = 3.5065944389539e+01 +/- 2.1758693912340e-01&#10;d = 8.2535694640239e-01 +/- 3.7848562761873e-02&#10;--------------------------------------------------------------------------------------&#10;Scale Errors with sqrt(Chi^2/doF) = 2.2884736309195e-02&#10;Chi^2/doF = 5.2371115594139e-04&#10;R^2 = 0.9988796823532&#10;Adjusted R^2 = 0.9943984117662&#10;RMSE (Root Mean Squared Error) = 0.0228847363092&#10;RSS (Residual Sum of Squares) = 0.001047422311883&#10;---------------------------------------------------------------------------------------&#10;Iterations = 108&#10;Status = success&#10;---------------------------------------------------------------------------------------&#10;">
+	<window type="1" name="Table1" date="2457877.8467491" x="0" y="0" w="386" h="303" active="1">
+		<tab rows="30" cols="2" labels="0">
+			<col name="Water Temperature" type="6" num="0" prec="13" plot="1" width="192" stat="0" data="15;22;25;28;31;35;"/>
+			<col name="ISP" type="6" num="0" prec="13" plot="2" width="100" stat="0" data="0;0.81;0.94;0.87;0.64;0;"/>
+		</tab>
+	</window>
+	<window type="3" name="Graph2" date="2458064.0055224" x="400" y="5" w="701" h="584" dpi="144">
+		<layout cw="685" ch="499" w="658" h="493" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="5" hSpace="5" hAlign="0" vAlign="0" align="0" common="0" link="0" scale="1" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="4" y="4" w="676" h="491" autoscale="1" maxMajorTicks="20" gap="1" scaleFont="1">
+			<page x="0.00583942" y="0.00801603" w="0.986861" h="0.983968"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="66" y="13" w="605" h="429" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0">
+				<majx lc="#a0a0a4" lw="1" ls="0"/>
+				<minx lc="#a0a0a4" lw="1" ls="1"/>
+				<majy lc="#a0a0a4" lw="1" ls="0"/>
+				<miny lc="#a0a0a4" lw="1" ls="1"/>
+			</grid>
+			<curve type="2" z="21" table="Table1" x="Water Temperature" y="ISP" from="0" to="-1" line="1" lc="#000000" lw="1" ls="0" brc="#000000" brs="0">
+				<symbol style="1" size="7" lc="#000000" lw="1" ls="0" brc="#000000"/>
+			</curve>
+			<curve type="19" z="22" name="NonLinearFit1" f="0" y="((a*x)*(x-b)*((c-x)^(1/d)))" from="15" to="35" points="100" line="1" lc="#ff0000" lw="1" ls="0" brc="#000000" brs="0">
+				<param name="a" val="0.000228890122789369"/>
+				<param name="b" val="14.9703958889088"/>
+				<param name="c" val="35.0659443895389"/>
+				<param name="d" val="0.82535694640239"/>
+			</curve>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.2" to="1" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="4"/>
+				<title text="%(?Y)" color="#000000" font="Arial Unicode MS,7.00178,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44"/>
+				<labels space="4" font="Arial Unicode MS,7.00178,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="-0.2" to="1" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="4"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="10" to="40" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="4"/>
+				<title text="%(?X)" color="#000000" font="Arial Unicode MS,7.00178,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="44"/>
+				<labels space="4" font="Arial Unicode MS,7.00178,-1,5,50,0,0,0,0,0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="10" to="40" step="0" maj="7" min="5" type="0"/>
+				<ticks maj="1" majl="8" min="1" minl="4"/>
+			</axis>
+			<item type="2" x="10.4566210045662" y="0.975609756097561" frame="1" lc="#000000" lw="1" ls="0" bg="#ffffff,0" onTop="1" at="0" on="1" auto="1" font="Arial Unicode MS,7.00178,-1,5,50,0,0,0,0,0" text="\l(1)%(1)&#10;\l(2)%(2)"/>
+		</tab>
+	</window>
+</qti>
