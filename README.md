@@ -1,4 +1,4 @@
-# Malaria Colombia Repository
+# The System Dynamics Model of Climate and Malaria in Colombia (SDMCMC)
 -------------------------------------------------------------------------------------------------------------------------------------------
 This repository aims to help the reproduction of the work presented here and ease future research that may benefit from the data used.
 
