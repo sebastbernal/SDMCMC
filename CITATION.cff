@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Bernal-Garcia
+    given-names: Sebastian
+    orcid: https://orcid.org/0000-0001-6598-1995
+keywords:
+  - endemic
+  - malaria
+  - Plasmodium falciparum
+  - system dynamics
+  - mathematical model
+  - climate
+  - temperature
+  - el niño
+  - ENSO
+  - weather
+  - Anopheles
+contact:
+  - affiliation: "Universidad Nacional de Colombia"
+    email: sbernal@unal.edu.co
+    family-names: Bernal-Garcia
+    given-names: Sebastian
+title: "The System Dynamics Model of Climate and Malaria in Colombia (SDMCMC) Git-Hub Repository"
+version: 1.0.0
+doi: 10.5281/zenodo.8080185
+date-released: 2018-10-31
