@@ -20,6 +20,7 @@ contact:
     email: sbernal@unal.edu.co
     family-names: Bernal-Garcia
     given-names: Sebastian
+type: dataset
 title: "The System Dynamics Model of Climate and Malaria in Colombia (SDMCMC) Git-Hub Repository"
 version: 1.0.0
 doi: 10.5281/zenodo.8080185
