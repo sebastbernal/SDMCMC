@@ -20,6 +20,8 @@ LinkedIn: https://www.linkedin.com/in/sebastianbernalgarcia/
 
 Researchgate: https://www.researchgate.net/profile/Sebastian_Bernal-Garcia
 
+Google Scholar: https://scholar.google.com/citations?user=7s_z-zsAAAAJ&hl
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 Tags: malaria Malaria Anopheles anopheles An. albimanus colombia Colombia clima climate weather temperature rainfall precipitation climate change El Niño el niño ENSO la niña La Niña nuqui Nuqui Nuquí Choco Chocó sebastian Sebastian Sebastián Bernal bernal García Garcia garcia
